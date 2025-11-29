@@ -1,0 +1,58 @@
+# 🛠️ Materials QC Studio
+### Automated Quality Control & Failure Analysis Platform for Metallurgists
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/Status-Active%20Development-green)
+![Domain](https://img.shields.io/badge/Domain-Materials%20Science%20%7C%20API%20571-orange)
+
+## 📋 Overview
+**Materials QC Studio** is a modular desktop application designed to bridge the gap between traditional metallurgy and modern data science. It automates the analysis of mechanical testing data, performs chemical composition validation, and assesses corrosion risks based on **API 571** standards.
+
+This tool is built to assist Quality Control (QC) engineers and researchers in reducing manual calculation errors and speeding up the reporting process for alloys like **SS316, Inconel 625, A105, and Tool Steels**.
+
+---
+
+## 🚀 Key Features
+
+### 1. 🧪 Lab Center (QC Module)
+*   **Automated Validation:** Checks chemical composition (Quantometry) against a customizable JSON database of alloys (ASTM/DIN standards).
+*   **Mechanical Data Analysis:** Processes Raw Data from tensile tests.
+*   **Visualization:** Generates professional Stress-Strain curves using `Matplotlib`.
+*   **Unit Conversion:** Built-in converters for Hardness (HV, HRC, HB) and Strength units.
+
+### 2. ⚠️ Risk Assessment (API 571)
+*   **Cl-SCC Prediction:** Calculates the risk of *Chloride Stress Corrosion Cracking* based on critical variables:
+    *   Temperature ($T > 60^\circ C$)
+    *   Material Type (Austenitic vs. Duplex/Inconel)
+    *   pH Level and Chloride content.
+*   **PWHT Logic:** Considers Post-Weld Heat Treatment status in risk calculation.
+
+### 3. 🔍 Failure Mode Diagnostics
+*   **Algorithmic Diagnosis:** Uses a scoring system to identify potential failure mechanisms based on observed evidence.
+*   **Pattern Recognition:** Detects scenarios like Fatigue (Beach marks), Overload (Dimples), or SCC (Branched cracks).
+
+---
+
+## 💻 Tech Stack & Architecture
+*   **Core Logic:** Python 3.x (OOP approach)
+*   **GUI Framework:** CustomTkinter (Modern, Dark-mode UI)
+*   **Data Processing:** Pandas, NumPy
+*   **Visualization:** Matplotlib (Integrated into GUI)
+*   **Data Storage:** JSON (Flexible Alloy Database)
+
+---
+
+## 📸 Screenshots
+*(Place your screenshots here. For example:)*
+> *Dashboard View showing the 4 main modules.*
+>
+> *Lab Center plotting a Stress-Strain curve.*
+
+---
+
+## 🔧 Installation & Usage
+
+1. **Clone the repository:**
+```bash
+   git clone https://github.com/Ramin-Borzooei/QC-studio
+   
