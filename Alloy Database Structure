@@ -1,0 +1,45 @@
+The system uses a materials_db.json file to store alloy properties, allowing users to easily add new materials without changing the source code:
+
+
+content_copy
+
+"1.7225 (42CrMo4)": {
+"composition": {"C": [0.38, 0.45], "Cr": [0.9, 1.2]},
+"mechanical": {"yield_strength": 650, "tensile_strength": 900}
+}
+
+---
+
+## 👤 Author
+**[Ramin Borzouei]**
+*Materials Engineer & Software Developer*
+
+*   **Focus:** Computational Materials Science, Failure Analysis, Process Automation.
+*   **Contact:** [ramin.borzuee@gmail.com]
+*   **LinkedIn:** [www.linkedin.com/in/ramin-borzooei]
+
+---
+
+### ⚖️ Disclaimer
+This software is intended for educational and assistive purposes. Always refer to the latest official standards (ASTM, API, ASME) for critical industrial decisions.
+
+
+---
+
+### چند نکته مهم برای اینکه گیت‌هاب شما حرفه‌ای‌تر شود:
+
+1.  **اسکرین‌شات (بسیار مهم):**
+*   نرم‌افزار را اجرا کنید.
+*   از صفحه اصلی (Dashboard)، از صفحه رسم نمودار (Lab Center) و از صفحه Risk Assessment عکس بگیرید.
+*   عکس‌ها را در یک پوشه در پروژه قرار دهید یا در خود گیت‌هاب آپلود کنید و لینک آن‌ها را در بخش `## 📸 Screenshots` که در متن بالا گذاشتم، قرار دهید. **بدون عکس، کسی باور نمی‌کند نرم‌افزار گرافیکی ساخته‌اید.**
+
+2.  **فایل `requirements.txt`:**
+*   حتماً یک فایل با این نام بسازید و کتابخانه‌هایی که استفاده کردیم را داخلش بنویسید تا اگر کسی (یا استادی) کد را دانلود کرد، بداند چه چیزی نصب کند:
+
+```text
+    customtkinter
+    matplotlib
+    pandas
+    numpy
+    packaging
+    pillow
